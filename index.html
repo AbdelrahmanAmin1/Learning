@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>الكتّاب | نظام تعلم العربية للأطفال</title>
+  <meta name="description" content="منصة عربية لإدارة تعلم الأطفال: تسجيل ودخول، مستويات، فيديوهات يوتيوب، حضور، تقدم، روابط زوم وكتب تعليمية." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500;700;800&family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a class="brand" href="#home">
+        <span class="brand__logo">أ</span>
+        <span>
+          <span class="brand__eyebrow">منظومة تعليمية عربية</span>
+          <span class="brand__name">الكتّاب | اقرأ ورتّل</span>
+        </span>
+      </a>
+
+      <nav class="nav" id="siteNav">
+        <a href="#levels">المستويات</a>
+        <a href="#library">المكتبة</a>
+        <a href="#portal">المنصة</a>
+        <a href="#books">الكتب</a>
+        <a href="#contact">تواصل</a>
+      </nav>
+
+      <div class="topbar__actions">
+        <a class="btn btn--ghost btn--sm" id="portalLink" href="#portal">دخول المنصة</a>
+        <button class="btn btn--ghost btn--sm is-hidden" id="topLogoutBtn" type="button">خروج</button>
+        <button class="hamburger" id="hamburger" type="button" aria-label="فتح القائمة" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="eyebrow">تعلم العربية من الحرف إلى الإتقان في واجهة واحدة</p>
+          <h1>منصة عربية للأطفال تجمع الطالب والمعلم والكتب والفيديوهات</h1>
+          <p class="hero__lead">الموقع يدير التسجيل والدخول، مستويات التعلم، تشغيل قوائم يوتيوب من داخل الموقع، متابعة الإنجاز، تسجيل الحضور، نشر روابط زوم والمواد التعليمية، مع قسم شراء للحقائب والكتب.</p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#portal">ابدأ التسجيل</a>
+            <a class="btn btn--secondary" href="#library">شاهد الدروس</a>
+          </div>
+          <div class="hero__stats">
+            <article class="stat-card"><strong>لوحة طالب</strong><span>تقدم، حضور، ودروس مرتبة</span></article>
+            <article class="stat-card"><strong>لوحة معلم</strong><span>إدارة الطلاب والروابط والمواد</span></article>
+            <article class="stat-card"><strong>مكتبة فيديو</strong><span>قوائم يوتيوب تعمل من داخل الموقع</span></article>
+          </div>
+        </div>
+
+        <div class="hero__visual" aria-hidden="true">
+          <div class="hero-card hero-card--main">
+            <div class="hero-card__top"><span>لوحة اليوم</span><span>تعلم مرن</span></div>
+            <h2>تعلم ذاتي + لقاء مباشر + متابعة معلم</h2>
+            <div class="progress"><span style="width:65%"></span></div>
+            <div class="hero-pills">
+              <span>فيديوهات مرتبة</span>
+              <span>حضور لكل لقاء</span>
+              <span>مواد وروابط زوم</span>
+            </div>
+          </div>
+          <div class="hero-card hero-card--note hero-card--a"><strong>الطالب</strong><p>يسجل ويتابع دروسه وإنجازه.</p></div>
+          <div class="hero-card hero-card--note hero-card--b"><strong>المعلم</strong><p>يراقب الطلاب وينشر الموارد.</p></div>
+        </div>
+      </div>
+      <div class="container"><div class="announcement" id="nextSessionBanner"></div></div>
+    </section>
+
+    <section class="section section--soft" id="services">
+      <div class="container">
+        <div class="section__head">
+          <div><p class="eyebrow eyebrow--small">وظائف المنصة</p><h2>ما الذي أضفناه للموقع؟</h2></div>
+          <p class="section__text">واجهة عربية متكاملة بدلاً من صفحة تعريفية فقط، مع تجربة واضحة للطالب والمعلم.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card"><div class="feature-card__icon">01</div><h3>تسجيل ودخول</h3><p>إدارة حسابات الطلاب داخل المتصفح وربط كل طالب بمستواه.</p></article>
+          <article class="feature-card"><div class="feature-card__icon">02</div><h3>مستويات ودروس</h3><p>عرض المستويات والخطة التعليمية وتشغيل الفيديوهات من القناة مباشرة.</p></article>
+          <article class="feature-card"><div class="feature-card__icon">03</div><h3>متابعة وحضور</h3><p>لوحة معلم لرصد التقدم وتسجيل الحضور لكل محاضرة بعنوان وتاريخ.</p></article>
+          <article class="feature-card"><div class="feature-card__icon">04</div><h3>مواد وشراء</h3><p>نشر روابط زوم والمواد التعليمية مع قسم حقائب وكتب وتواصل سريع.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="levels">
+      <div class="container">
+        <div class="section__head">
+          <div><p class="eyebrow eyebrow--small">المحتوى الدراسي</p><h2>المستويات التعليمية</h2></div>
+          <p class="section__text">كل مستوى مرتبط بخطته التعليمية، ودروسه، وقائمة تشغيله، ومواده، والكتاب المناسب له.</p>
+        </div>
+        <div class="levels-grid" id="levelsGrid"></div>
+      </div>
+    </section>
+
+    <section class="section section--soft" id="library">
+      <div class="container">
+        <div class="section__head">
+          <div><p class="eyebrow eyebrow--small">المكتبة المرئية</p><h2>شاهد الدروس من داخل الموقع</h2></div>
+          <p class="section__text">اختر المستوى والدرس، وسيعمل المشغل من قناة <a class="text-link" href="https://www.youtube.com/@ALKTTAB/" target="_blank" rel="noopener">@ALKTTAB</a>.</p>
+        </div>
+        <div class="library">
+          <aside class="library__sidebar">
+            <div class="tab-list" id="levelTabs"></div>
+            <div class="library__summary" id="levelSummary"></div>
+            <div class="lesson-list" id="lessonList"></div>
+          </aside>
+          <div class="player-card">
+            <div class="player-card__eyebrow" id="playerEyebrow"></div>
+            <h3 id="playerTitle"></h3>
+            <p id="playerText"></p>
+            <div class="video-frame" id="videoFrame"></div>
+            <div class="player-actions">
+              <button class="btn btn--ghost btn--sm" id="prevLessonBtn" type="button">الدرس السابق</button>
+              <button class="btn btn--primary btn--sm" id="nextLessonBtn" type="button">الدرس التالي</button>
+              <a class="btn btn--ghost btn--sm" id="openPlaylist" href="#" target="_blank" rel="noopener">افتح القائمة</a>
+              <a class="btn btn--ghost btn--sm" href="https://www.youtube.com/@ALKTTAB/" target="_blank" rel="noopener">زيارة القناة</a>
+            </div>
+            <div class="resource-strip" id="levelResources"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="portal">
+      <div class="container">
+        <div class="section__head">
+          <div><p class="eyebrow eyebrow--small">بوابة المنصة</p><h2>لوحات الطالب والمعلم</h2></div>
+          <p class="section__text">تسجيل الطلاب ودخول المعلم مع إدارة التقدم والحضور وروابط اللقاءات داخل نفس الواجهة.</p>
+        </div>
+        <div class="portal-layout">
+          <div class="auth-card">
+            <div class="auth-card__top">
+              <div><p class="eyebrow eyebrow--small">ابدأ من هنا</p><h3>تسجيل طالب أو دخول المعلم</h3></div>
+              <div class="auth-switch" id="authSwitch">
+                <button class="auth-switch__btn is-active" data-auth-mode="login" type="button">دخول</button>
+                <button class="auth-switch__btn" data-auth-mode="register" type="button">تسجيل طالب</button>
+              </div>
+            </div>
+            <div id="authForms">
+              <form class="auth-form" id="loginForm">
+                <label><span>البريد الإلكتروني</span><input type="email" name="email" required placeholder="student1@alkttab.local" /></label>
+                <label><span>كلمة المرور</span><input type="password" name="password" required placeholder="أدخل كلمة المرور" /></label>
+                <button class="btn btn--primary btn--block" type="submit">تسجيل الدخول</button>
+              </form>
+              <form class="auth-form is-hidden" id="registerForm">
+                <label><span>اسم الطالب</span><input type="text" name="name" required /></label>
+                <label><span>البريد الإلكتروني</span><input type="email" name="email" required /></label>
+                <label><span>رقم الطالب أو ولي الأمر</span><input type="tel" name="phone" required /></label>
+                <label><span>اسم ولي الأمر</span><input type="text" name="guardianName" required /></label>
+                <label><span>رقم ولي الأمر</span><input type="tel" name="guardianPhone" required /></label>
+                <label><span>المستوى المطلوب</span><select name="levelId" id="registerLevel" required></select></label>
+                <label><span>كلمة المرور</span><input type="password" name="password" minlength="6" required /></label>
+                <button class="btn btn--primary btn--block" type="submit">إنشاء الحساب</button>
+              </form>
+            </div>
+            <div class="account-box is-hidden" id="accountBox"></div>
+            <div class="demo-box">
+              <div class="demo-box__title">الدخول إلى المنصة</div>
+              <p class="section__text">يمكن للطلاب إنشاء حساباتهم من نموذج التسجيل، بينما يُستخدم حساب المعلم لإدارة المنصة والطلاب والجلسات المباشرة.</p>
+            </div>
+            <div class="inline-note" id="authNote" role="status" aria-live="polite"></div>
+          </div>
+
+          <div class="preview-card">
+            <h3>ماذا تدير المنصة؟</h3>
+            <ul class="feature-list">
+              <li>لوحة طالب تعرض المستوى ونسبة الإنجاز وسجل الحضور والمواد المنشورة.</li>
+              <li>لوحة معلم لعرض الطلاب وتعديل التقدم وتسجيل الحضور لكل لقاء.</li>
+              <li>نشر روابط زوم أو المواد التعليمية حسب المستوى لتظهر للطلاب فورًا.</li>
+              <li>قسم كتب وحقائب مع شراء مباشر عبر واتساب أو التواصل بالبريد والهاتف.</li>
+            </ul>
+          </div>
+        </div>
+        <section class="dashboard is-hidden" id="dashboardSection">
+          <div class="dashboard__header">
+            <div><p class="eyebrow eyebrow--small" id="dashboardRoleLabel">لوحة التحكم</p><h3 id="dashboardTitle">أهلًا بك</h3></div>
+            <button class="btn btn--ghost btn--sm" id="logoutBtn" type="button">تسجيل الخروج</button>
+          </div>
+          <div class="student-dashboard is-hidden" id="studentDashboard">
+            <div class="metric-grid" id="studentMetrics"></div>
+            <div class="dashboard-grid">
+              <article class="panel"><div class="panel__head"><h4>بطاقة المستوى</h4><a class="text-link" href="#library">فتح المكتبة</a></div><div id="studentLevelCard"></div></article>
+              <article class="panel"><div class="panel__head"><h4>الدروس والإنجاز</h4><span class="panel__hint">علّم الدرس بعد الانتهاء منه</span></div><div id="studentLessons"></div></article>
+              <article class="panel"><div class="panel__head"><h4>الحصص والمواد</h4><span class="panel__hint">حسب ما نشره المعلم</span></div><div id="studentSessions"></div></article>
+              <article class="panel"><div class="panel__head"><h4>سجل الحضور</h4><span class="panel__hint">ملخص اللقاءات السابقة</span></div><div id="studentAttendance"></div></article>
+            </div>
+          </div>
+          <div class="teacher-dashboard is-hidden" id="teacherDashboard">
+            <div class="metric-grid" id="teacherMetrics"></div>
+            <div class="dashboard-grid dashboard-grid--teacher">
+              <form class="panel" id="teacherSessionForm">
+                <div class="panel__head"><h4>نشر رابط زوم أو مادة</h4><span class="panel__hint">ستظهر مباشرة للطلاب في المستوى المحدد</span></div>
+                <div class="form-grid">
+                  <label><span>المستوى</span><select name="levelId" id="teacherSessionLevel" required></select></label>
+                  <label><span>عنوان اللقاء أو المادة</span><input type="text" name="title" required /></label>
+                  <label><span>التاريخ</span><input type="date" name="date" required /></label>
+                  <label><span>الوقت</span><input type="time" name="time" required /></label>
+                  <label><span>رابط زوم</span><input type="url" name="zoomLink" placeholder="https://zoom.us/..." /></label>
+                  <label><span>عنوان المادة</span><input type="text" name="materialTitle" placeholder="مثال: ورقة متابعة" /></label>
+                  <label class="form-grid__full"><span>رابط المادة التعليمية</span><input type="url" name="materialLink" placeholder="https://drive.google.com/..." /></label>
+                  <label class="form-grid__full"><span>ملاحظات</span><textarea name="notes" rows="4"></textarea></label>
+                </div>
+                <button class="btn btn--primary" type="submit">نشر العنصر</button>
+              </form>
+              <form class="panel" id="teacherClassroomForm">
+                <div class="panel__head"><h4>متابعة الطلاب والحضور</h4><span class="panel__hint">اختر المستوى والمحاضرة ثم احفظ</span></div>
+                <div class="teacher-toolbar">
+                  <label><span>المستوى</span><select id="teacherLevelFilter" name="levelId"></select></label>
+                  <label><span>عنوان المحاضرة</span><input id="teacherLectureTitle" name="lectureTitle" type="text" required /></label>
+                  <label><span>تاريخ المحاضرة</span><input id="teacherLectureDate" name="lectureDate" type="date" required /></label>
+                </div>
+                <div class="teacher-students" id="teacherStudentRows"></div>
+                <button class="btn btn--primary" type="submit">حفظ التقدم والحضور</button>
+              </form>
+              <article class="panel"><div class="panel__head"><h4>العناصر المنشورة</h4><span class="panel__hint">يمكن حذف أي عنصر بعد نشره</span></div><div id="teacherSessionsList"></div></article>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section class="section section--soft" id="books">
+      <div class="container">
+        <div class="section__head">
+          <div><p class="eyebrow eyebrow--small">المتجر التعليمي</p><h2>الكتب والحقائب التعليمية</h2></div>
+          <p class="section__text">قسم مرتب للكتب والحزم التعليمية مع شراء مباشر عبر واتساب أو انتقال إلى قسم التواصل.</p>
+        </div>
+        <div class="books-grid" id="booksGrid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section__head">
+          <div><p class="eyebrow eyebrow--small">تواصل وشراء</p><h2>قنوات التواصل مع المنصة</h2></div>
+          <p class="section__text">الهاتف والبريد وواتساب والقناة في مكان واحد، مع نموذج رسالة سريعة محفوظ محليًا داخل المتصفح.</p>
+        </div>
+        <div class="contact-grid">
+          <article class="contact-card">
+            <h3>تواصل سريع</h3>
+            <div class="contact-links">
+              <a class="contact-link" href="tel:0593781376"><strong>الهاتف</strong><span>0593781376</span></a>
+              <a class="contact-link" href="https://api.whatsapp.com/send?phone=0593781376" target="_blank" rel="noopener"><strong>واتساب</strong><span>مراسلة مباشرة للشراء والاستفسار</span></a>
+              <a class="contact-link" href="mailto:kttababdelbaky@gmail.com"><strong>البريد الرئيسي</strong><span>kttababdelbaky@gmail.com</span></a>
+              <a class="contact-link" href="mailto:boda2010100@gmail.com"><strong>البريد الإضافي</strong><span>boda2010100@gmail.com</span></a>
+              <a class="contact-link" href="https://www.youtube.com/@ALKTTAB/" target="_blank" rel="noopener"><strong>قناة يوتيوب</strong><span>@ALKTTAB</span></a>
+            </div>
+          </article>
+          <form class="contact-form" id="contactForm">
+            <div class="panel__head panel__head--compact"><h3>رسالة سريعة</h3><span class="panel__hint">تُحفظ محليًا كتجربة واجهة ثم تفتح واتساب</span></div>
+            <label><span>الاسم</span><input type="text" name="name" required /></label>
+            <label><span>رقم الهاتف</span><input type="tel" name="phone" required /></label>
+            <label><span>نوع الطلب</span><select name="topic" required><option value="الاستفسار عن مستوى">الاستفسار عن مستوى</option><option value="شراء حقيبة أو كتاب">شراء حقيبة أو كتاب</option><option value="حجز حلقة مباشرة">حجز حلقة مباشرة</option><option value="دعم فني أو متابعة">دعم فني أو متابعة</option></select></label>
+            <label><span>الرسالة</span><textarea name="message" rows="5" required></textarea></label>
+            <button class="btn btn--primary btn--block" type="submit">إرسال الرسالة</button>
+            <div class="inline-note" id="formNote" role="status" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <div class="footer__brand">الكتّاب | نظام تعلم العربية للأطفال</div>
+        <div class="footer__text">منصة عربية تعرض الدروس وتدير الحضور والتقدم والمواد التعليمية والكتب في واجهة واحدة.</div>
+      </div>
+      <div class="footer__links"><a href="#levels">المستويات</a><a href="#library">المكتبة</a><a href="#portal">المنصة</a><a href="#books">الكتب</a></div>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
